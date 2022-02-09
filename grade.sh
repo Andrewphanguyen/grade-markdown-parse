@@ -1,5 +1,6 @@
 
 git clone $1
+mkdir marodwn-parse/
 cp GradingTests.java markdown-parse/
 cd markdown-parse
 javac -cp lib/*:. GradingTests.java MarkdownParse.java
